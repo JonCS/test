@@ -11,8 +11,6 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing..'
-                javac Test.java
-                java Test
             }
         }
         stage('Deploy') {
